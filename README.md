@@ -64,6 +64,6 @@ graph of crime rate in the US for both violent and property crime
 ## Instructions to run the code
 1. Download the repo
 2. Install the module libraries with pip
-3. Enter in the terminal: "python3 crime_poverty.py statistic-data/crimes/USCrimeRates.csv statistic-data/poverty/PovertybyCounty.csv statistic-data/boundaries/US.csv 1024"
-4. Install ImageMagick using brew: "update brew && brew install ImageMagick"
-5. Enter in the terminal: convert ""-delay 120 -loop 30 *stitched.png US.gif"
+3. Enter in the terminal: `python3 crime_poverty.py statistic-data/crimes/USCrimeRates.csv statistic-data/poverty/PovertybyCounty.csv statistic-data/boundaries/US.csv 1024`
+4. Install ImageMagick using brew: `update brew && brew install ImageMagick`
+5. Enter in the terminal: convert `-delay 120 -loop 30 *stitched.png US.gif`
